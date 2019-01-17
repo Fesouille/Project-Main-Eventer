@@ -1,0 +1,64 @@
+/*      */
+/*Section CONFIG starts now        */
+@font-face {
+font-family: 'Open Sans';
+src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Open Sans';
+src: url('fonts/Cinzel-Regular.ttf.') format('truetype');
+}
+}
+/*Section CONFIG ends now        */
+
+/*Section BODY starts now         */
+body {
+
+}
+/*Section TITLE starts now      */
+.container {
+
+}
+.row {
+
+}
+.heading-title h3 {
+
+}
+.text-uppercase {
+
+}
+.team-member, .team-img {
+  position: relative;
+}
+.team-text {
+  font-family: 'Cinzel';
+  font-size: 13pt;
+
+}
+.team-member1 {
+
+}
+.team-member3 {
+
+}
+
+
+
+
+/*Section TITLE ends now      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section BODY ends now        */

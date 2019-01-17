@@ -1,0 +1,63 @@
+@font-face {
+font-family: 'Titre';
+src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Texte'
+src:url('fonts/Cinzel-Regular.ttf') format('truetype');
+}
+
+.Presentation{
+  margin:auto;
+  width: 65%;
+  position: relative;
+}
+
+
+img{
+  position:absolute;
+  left: 0;
+  top: 20px;
+}
+
+
+h1{
+  background-color: yellow;
+  font-family: "Titre";
+  font-size: 150%;
+}
+
+p{
+  font-family: "Texte"
+}
+
+
+.whoweare{
+  position: absolute;
+  right: 280px;
+  top: 50px;
+
+}
+
+.best{
+  background-color: blue;
+  position: absolute;
+  left: -50px;
+  top: 30px;
+}
+
+.par1{
+  position:absolute;
+  background-color: red;
+  top: 252px;
+  right: 40px;
+
+
+}
+
+.par2{
+  position:absolute;
+  background-color: pink;
+  top: 390px;
+}

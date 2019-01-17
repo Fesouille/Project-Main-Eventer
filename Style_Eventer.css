@@ -1,3 +1,9 @@
+html{
+	background-color:#CECECE;
+}
+body{
+	border:1px solid black;
+}
 header nav ul{
 	display:flex;
 	float:right;

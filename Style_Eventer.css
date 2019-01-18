@@ -1,64 +1,48 @@
 /*      */
 /*Section CONFIG starts now        */
 @font-face {
-font-family: 'Open Sans';
-src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
+  font-family: 'Open Sans';
+  src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
 }
-@font-face {
-font-family: 'Open Sans';
-src: url('fonts/Cinzel-Regular.ttf.') format('truetype');
-}
-}
-/*Section CONFIG ends now        */
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/Cinzel-Regular.ttf.') format('truetype');
+}
+
+
+/*Section CONFIG ends now        */
 /*Section BODY starts now         */
 body {
-
+  height: 100%;
+  width: 100%;
+  lenghth: 100%;
 }
-/*Section TITLE starts now      */
-.container {
 
+.team {
+  border-style: dotted;
+  border-color: rgb(26, 249, 58);
+  padding: 80px;
 }
-.row {
-
+.title {
+  border-style: dotted;
+  border-color: rgb(9, 87, 140);
+  padding: 80px;
 }
-.heading-title h3 {
-
+.block1 {
+  border-style: dotted;
+  border-color: rgb(187, 203, 12);
+  padding: 80px;
 }
-.text-uppercase {
-
-}
-.team-member, .team-img {
-  position: relative;
-}
-.team-text {
-  font-family: 'Cinzel';
-  font-size: 13pt;
-
+.block2 {
+  border-style: dotted;
+  border-color: rgb(221, 105, 112);
+  padding: 80px;
 }
 .team-member1 {
-
+  display: inline;
+  float: right
+  border-style: dotted;
+  border-color: rgb(194, 151, 21);
+  padding: 2px;
 }
-.team-member3 {
-
-}
-
-
-
-
-/*Section TITLE ends now      */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Section BODY ends now        */

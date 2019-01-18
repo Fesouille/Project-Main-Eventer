@@ -2,17 +2,21 @@
 header nav ul{
 	display:flex;
 	float:right;
-	margin-right:15%;
+	margin-right:10%;
 }
 /*Elements of the navigation block
-(about, team, events, Nous contacter)*/
+(About, Team, Events, Contact form)*/
 header nav ul li{
 	color:white;
-	padding-left:5px;
-	padding-right:5px;
+	padding-left:10px;
+	padding-right:10px;
 	list-style-type: none;
 }
-header nav ul li:hover{
+header nav ul li a, header nav ul li a:visited{
+	color:white;
+	text-decoration: none;
+}
+header nav ul li a:hover{
 	background-color:white;
 	color:black;
 }
@@ -25,6 +29,7 @@ header{
 		linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)),
 		/*background image*/
 		url(images/header_Background.jpg);
+	background-size: cover;
 }
 /*Div of the header containing the logo
 Width and Height are set to correspong to the size of 

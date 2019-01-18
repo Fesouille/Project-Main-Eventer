@@ -9,24 +9,24 @@
 
 	<body>
 		<section class="form-section">
-			<div>
+			<div id="form-title">
 				<h1>Need an Event ?</h1>
 				<hr>
 			</div>
 
 			<form action="/my-handling-form-page" method="post">
 				<div id="form-name">
-					<label for="name">Name *</label>
+					<label for="name">Name <span class="form-star">*</span></label>
 					<input type="text" id="name" name="user_name">
 				</div>
 
-				<div id="form-firstname">
-					<label for="firstname">Firstname *</label>
-					<input type="text" id="firstname" name="user_firstname">
+				<div id="form-lastname">
+					<label for="lastname">Lastname <span class="form-star">*</span></label>
+					<input type="text" id="lastname" name="user_lastname">
 				</div>
 
 				<div id="form-mail">
-					<label for="mail">E-mail *</label>
+					<label for="mail">E-mail <span class="form-star">*</span></label>
 					<input type="email" id="mail" name="user_mail">
 				</div>
 
@@ -34,7 +34,7 @@
 					<label for="description">Description</label>
 					<textarea type="msg" id="name" name="user_message"></textarea>
 				</div>
-				<div class="button">
+				<div id="form-button">
 					<button type="submit">Send</button>
 				</div>
 			</form>

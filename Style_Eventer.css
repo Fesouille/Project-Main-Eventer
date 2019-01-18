@@ -1,53 +1,65 @@
 
-.form-section{
+#form-title{
 	position:relative;
 }
-.form-section hr{
+#form-title hr{
 	border: 2.5px solid #B22222;
-	width: 260px;
-	position:absolute;
-
+	width: 192px;
+	position: absolute;
+	top:35px;
+	left:3px;
 }
 form{
-	width:600px;
+	max-width:80%;
 	height:400px;
 	margin: 60px auto 15px auto;
 }
 form div{
 	margin-bottom: 25px;
-	margin-right:15px;
+	width:50%;
 	float:left;
-	width:200px;
 }
 form div label{
-	top:0px;
-	width:200px;
 	float:left;
-}
-form div input{
-	width:1000px;
+	top:0px;
+	width:100%;
+	margin-bottom:10px;
 }
 form div input, form div textarea{
-	float:left;
+	width:70%;
 	top:40px;
-}
-.button, #form-description {
-	clear:both;
-}
-
-#form-name input,#form-firstname input,#form-mail input{
-width:90px;
 }
 form div input, form div textarea, form div button{
 	border-radius: 10px;
 	border: 1px solid #B22222;
 }
-.button button{
+form #form-description{
+	width:100%;
+	height:40%;
+}
+#form-description textarea{
+	height:70%;
+}
+#form-mail, #form-description, #form-button{
+	clear:both;
+}
+form #form-button{
+	width:100%;
+	margin-left:28%;
+}
+#form-button button{
 	background-color: white;
 	color:#B22222;
-	margin:auto;
+	width:90px;
+	height:30px;
+	text-transform: uppercase;
 }
-.button button:hover{
+#form-button button:hover{
 	background-color:#B22222;
 	color:white;
 }
+.form-star{
+	position:relative;
+	top:5px;
+}
+

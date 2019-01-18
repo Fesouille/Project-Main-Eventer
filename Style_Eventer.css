@@ -1,7 +1,4 @@
 
-body{
-	border-bottom:1px solid black;
-}
 header nav ul{
 	display:flex;
 	float:right;
@@ -66,4 +63,5 @@ contained in the footer*/
 }
 footer h1{
 	text-align:center;
+	text-transform:uppercase;
 }

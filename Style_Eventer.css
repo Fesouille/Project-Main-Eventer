@@ -1,0 +1,56 @@
+
+.form-section{
+	position:relative;
+}
+.form-section hr{
+	border-width: 2.5px;
+	width: 260px;
+	border-color: #B22222;
+	position:absolute;
+
+}
+form{
+	width:600px;
+	height:400px;
+	margin: 60px auto 15px auto;
+}
+form div{
+	margin-bottom: 25px;
+	margin-right:15px;
+	float:left;
+	width:200px;
+}
+form div label{
+	top:0px;
+}
+form div label{
+	width:200px;
+	float:left;
+}
+form div input{
+	width:100px;
+}
+form div input, form div textarea{
+	float:left;
+	top:40px;
+}
+.button, #form-description {
+	clear:both;
+}
+
+#form-name input,#form-firstname input,#form-mail input{
+width:90px;
+}
+form div input, form div textarea, form div button{
+	border-radius: 10px;
+	border: 1px solid #B22222;
+}
+.button button{
+	background-color: white;
+	color:#B22222;
+	margin:auto;
+}
+.button button:hover{
+	background-color:#B22222;
+	color:white;
+}

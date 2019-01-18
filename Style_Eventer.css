@@ -1,12 +1,27 @@
+/* Tout le code ci-dessous devrait être commun à tout le monde */
+
 @font-face {
 font-family: 'Titre';
 src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 
 @font-face{
-font-family: 'Texte'
-src:url('fonts/Cinzel-Regular.ttf') format('truetype');
+font-family: 'Texte';
+src: url('fonts/Cinzel-Regular.ttf') format('truetype');
 }
+
+h1{
+  font-family: "Titre";
+  font-size: 250%;
+  font-weight: lighter
+}
+
+p{
+  font-family: "Texte"
+  text-transform:lowercase;
+}
+
+/* Contenair Reda*/
 
 .Presentation{
   margin:auto;
@@ -14,50 +29,58 @@ src:url('fonts/Cinzel-Regular.ttf') format('truetype');
   position: relative;
 }
 
+/* Image */
 
-img{
+.img1{
   position:absolute;
-  left: 0;
   top: 20px;
 }
 
-
-h1{
-  background-color: yellow;
-  font-family: "Titre";
-  font-size: 150%;
-}
-
-p{
-  font-family: "Texte"
-}
-
+/* Titre */
 
 .whoweare{
   position: absolute;
-  right: 280px;
+  right: 180px;
   top: 50px;
-
 }
+
+/* Barre en dessous tu titre */
+
+.whoweare1{
+  position:absolute;
+  width: 250px;
+  margin-left: 410px;
+  margin-top: 140px;
+  color: #B22222;
+  border-width: 3px;
+}
+
+/* Case à coté de l'image */
 
 .best{
-  background-color: blue;
+  background-color: #B22222;
+  border-style: solid;
+  border-color: white;
   position: absolute;
-  left: -50px;
+  left: -80px;
   top: 30px;
+  color: white;
+  padding: 5px;
 }
+
+/* Paragraph 1 et 2 */
 
 .par1{
   position:absolute;
-  background-color: red;
   top: 252px;
-  right: 40px;
-
-
+  right: 30px;
+  color: #A9A9A9;
 }
 
 .par2{
   position:absolute;
-  background-color: pink;
   top: 390px;
+  color: #A9A9A9;
 }
+
+/* CSS Reda fin*/

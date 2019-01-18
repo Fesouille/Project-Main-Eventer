@@ -3,9 +3,8 @@
 	position:relative;
 }
 .form-section hr{
-	border-width: 2.5px;
+	border: 2.5px solid #B22222;
 	width: 260px;
-	border-color: #B22222;
 	position:absolute;
 
 }
@@ -22,13 +21,11 @@ form div{
 }
 form div label{
 	top:0px;
-}
-form div label{
 	width:200px;
 	float:left;
 }
 form div input{
-	width:100px;
+	width:1000px;
 }
 form div input, form div textarea{
 	float:left;

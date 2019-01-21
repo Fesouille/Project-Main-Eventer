@@ -1,4 +1,5 @@
 
+
 header nav ul{
 	display:flex;
 	float:right;
@@ -32,9 +33,9 @@ header{
 	background-size: cover;
 }
 /*Div of the header containing the logo
-Width and Height are set to correspong to the size of 
+Width and Height are set to correspong to the size of
 	the image it contains i.e. the logo
-Paddings top and bottom are set as to correspond to the height of the 
+Paddings top and bottom are set as to correspond to the height of the
 	height of the header [padding=(height of header/4]*/
 #logo{
 	width:284px;
@@ -73,3 +74,91 @@ contained in the footer*/
 footer h1{
 	text-align:center;
 }
+=======
+/* Tout le code ci-dessous devrait être commun à tout le monde */
+
+@font-face {
+font-family: 'Titre';
+src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Texte';
+src: url('fonts/Cinzel-Regular.ttf') format('truetype');
+}
+
+h1{
+  font-family: "Titre";
+  font-size: 250%;
+  font-weight: lighter
+}
+
+p{
+  font-family: "Texte"
+  text-transform:lowercase;
+}
+
+/* Contenair Reda*/
+
+#Presentation{
+  margin:auto;
+  width: 65%;
+  position: relative;
+}
+
+/* Image */
+
+#img1{
+  position:absolute;
+  top: 20px;
+}
+
+/* Titre */
+
+#whoweare{
+  position: absolute;
+  right: 180px;
+  top: 50px;
+}
+
+/* Barre en dessous tu titre */
+
+#whoweare1{
+  position:absolute;
+  width: 215px;
+  margin-left: 410px;
+  margin-top: 140px;
+  color: #B22222;
+  border-width: 3px;
+}
+
+/* Case à coté de l'image */
+
+#best{
+  background-color: #B22222;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  left: -80px;
+  top: 30px;
+  color: white;
+  padding: 5px;
+}
+
+/* Paragraph 1 et 2 */
+
+#par1{
+  position:absolute;
+  top: 252px;
+  right: 30px;
+  color: #A9A9A9;
+}
+
+#par2{
+  position:absolute;
+  top: 390px;
+  color: #A9A9A9;
+}
+
+/* CSS Reda fin*/
+>>>>>>> presentationReda

@@ -3,10 +3,10 @@ width:100%;
 height:100% ;
 }
 
-header nav ul {
-  display: flex;
-  float: right;
-  margin-right: 10%;
+header nav ul{
+	display:flex;
+	float:right;
+	margin-right:15%;
 }
 
 /*Elements of the navigation block
@@ -233,6 +233,10 @@ p {
   font-family: 'Comfortaa';
   color: rgb(178, 172, 181);
   font-size: 10px;
+}
+footer h1{
+	text-align:center;
+	text-transform:uppercase;
 }
 
 .team-member1 {

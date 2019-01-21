@@ -102,7 +102,9 @@ p{
 /* Contenair Reda*/
 
 #Presentation{
-  margin:auto;
+  margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
   width: 65%;
   position: relative;
 }
@@ -112,23 +114,26 @@ p{
 #img1{
   float:left;
   top: 20px;
-  margin-right: 10px;
+  margin-right: 5%;
+
 }
 
 /* Titre */
 
 #whoweare{
-  top: 50px;
+  padding-top: 5%;
+	position: relative;
 }
 
 /* Barre en dessous du titre */
 
-#whoweare1{
+#whoweare1 hr{
   width: 215px;
-  left: 42%;
-  top: 15%;
+  margin-left: 49%;
+	margin-top: -2%;
   border: 2px solid #B22222;
   border-width: 3px;
+	position: absolute;
 }
 
 /* Case à coté de l'image */
@@ -147,14 +152,10 @@ p{
 /* Paragraph 1 et 2 */
 
 #par1{
-  top: 252px;
-  right: 30px;
+	margin-top: 19%;
 }
 
 #par2{
-  position:absolute;
-  top: 390px;
-  color: #A9A9A9;
+	margin-top: 5%;
 }
 /* CSS Reda fin*/
-

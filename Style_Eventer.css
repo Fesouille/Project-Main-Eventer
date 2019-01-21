@@ -96,6 +96,7 @@ h1{
 p{
   font-family: "Texte"
   text-transform:lowercase;
+   color: #A9A9A9;
 }
 
 /* Contenair Reda*/
@@ -109,27 +110,24 @@ p{
 /* Image */
 
 #img1{
-  position:absolute;
+  float:left;
   top: 20px;
+  margin-right: 10px;
 }
 
 /* Titre */
 
 #whoweare{
-  position: relative;
-  left: 45%;
   top: 50px;
-  color:red;
 }
 
-/* Barre en dessous tu titre */
+/* Barre en dessous du titre */
 
 #whoweare1{
-  position:absolute;
   width: 215px;
-  margin-left: 410px;
-  margin-top: 140px;
-  color: #B22222;
+  left: 42%;
+  top: 15%;
+  border: 2px solid #B22222;
   border-width: 3px;
 }
 
@@ -149,10 +147,8 @@ p{
 /* Paragraph 1 et 2 */
 
 #par1{
-  position:absolute;
   top: 252px;
   right: 30px;
-  color: #A9A9A9;
 }
 
 #par2{

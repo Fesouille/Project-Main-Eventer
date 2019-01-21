@@ -166,7 +166,6 @@ p {
 }
 
 /* CSS Reda fin*/
-=======
 
 /*CSS VICTOR DEBUT      */
 /*Section BODY starts now         */
@@ -362,4 +361,78 @@ padding-top: 6px;
   margin : 0px 25px;
   color: #A9A9A9;
 }
-/****************************************CSS LOUISE    ***************/
+/****************************************CSS LOUISE FIN  ***************/
+
+
+/****************************************CSS Form debut***************/
+/*div containing title and underscore of the section 'form-section'*/
+#form-title{
+	position:relative;
+}
+/*hr is used as an underscore of the title of the form.
+This allows to position it according to the maquette*/
+#form-title hr{
+	border: 2.5px solid #B22222;
+	width: 192px;
+	position: absolute;
+	top:35px;
+	left:3px;
+}
+form{
+	max-width:80%;
+	height:400px;
+	margin: 60px auto 15px auto;
+}
+/*The form contains a div for each label element and its input box
+(Name, Firstname, E-mail and Description)*/
+form div{
+	margin-bottom: 25px;
+	width:50%;
+	float:left;
+}
+form div label{
+	float:left;
+	top:0px;
+	width:100%;
+	margin-bottom:10px;
+}
+form div input, form div textarea{
+	width:70%;
+	top:40px;
+}
+form div input, form div textarea, form div button{
+	border-radius: 10px;
+	border: 1px solid #B22222;
+}
+form #form-description{
+	width:100%;
+	height:40%;
+}
+#form-description textarea{
+	height:70%;
+}
+#form-mail, #form-description, #form-button{
+	clear:both;
+}
+form #form-button{
+	width:100%;
+	margin-left:28%;
+}
+#form-button button{
+	background-color: white;
+	color:#B22222;
+	width:90px;
+	height:30px;
+	text-transform: uppercase;
+}
+#form-button button:hover{
+	background-color:#B22222;
+	color:white;
+}
+.form-star{
+	position:relative;
+	top:5px;
+}
+
+/****************************************CSS Joseph form FIN***************/
+

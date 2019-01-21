@@ -1,3 +1,7 @@
+body {
+width:100%;
+height:100% ;
+}
 
 header nav ul {
   display: flex;
@@ -82,10 +86,9 @@ footer h1 {
   text-align: center;
 }
 
-=======
 
 /* Tout le code ci-dessous devrait être commun à tout le monde */
->>>>>>> 8920d75291c63f8e536a30e1f839a1ad8661e083
+
 @font-face {
   font-family: 'Titre';
   src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
@@ -260,12 +263,8 @@ img {
   float: left;
 }
 /*CSS VICTOR FIN      */
-body {
-width:100%;
-height:100% ;
 
-}
-
+/****************************************CSS LOUISE     ***************/
 
 #Events{
 width: 100%;
@@ -363,3 +362,4 @@ padding-top: 6px;
   margin : 0px 25px;
   color: #A9A9A9;
 }
+/****************************************CSS LOUISE    ***************/

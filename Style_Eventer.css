@@ -1,17 +1,4 @@
 /*      */
-/*Section CONFIG starts now        */
-@font-face {
-  font-family: 'Open Sans';
-  src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('fonts/Cinzel-Regular.ttf.') format('truetype');
-}
-
-
-/*Section CONFIG ends now        */
 /*Section BODY starts now         */
 body {
   height: 100%;
@@ -19,30 +6,105 @@ body {
   lenghth: 100%;
 }
 
+.block1 {
+  display: flex;
+  border-style: dotted;
+  border-color: rgb(187, 203, 12);
+  padding: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.block2 {
+  display: flex;
+  border-style: dotted;
+  border-color: rgb(221, 105, 112);
+  padding: 80px;
+  padding-top: 20px;
+}
+
 .team {
   border-style: dotted;
   border-color: rgb(26, 249, 58);
   padding: 80px;
 }
+
 .title {
   border-style: dotted;
   border-color: rgb(9, 87, 140);
-  padding: 80px;
+  padding: 60px;
 }
-.block1 {
-  border-style: dotted;
-  border-color: rgb(187, 203, 12);
-  padding: 80px;
+
+h1 {
+  font-family: 'Comfortaa';
+  font-size: 43px;
+  position: relative;
+  padding: 5px;
+  text-align: center;
 }
-.block2 {
-  border-style: dotted;
-  border-color: rgb(221, 105, 112);
-  padding: 80px;
+
+hr {
+  margin-top: -35px;
+  margin-bottom: -50px;
+  width: 200px;
+  margin-left: 420px;
+  border: solid #B22222;
+  border-width: 2px;
 }
+
+h2 {
+  float: left;
+  font-family: 'Comfortaa';
+  text-transform: uppercase;
+  color: rgb(239, 247, 241);
+  font-size: 12px;
+  font-weight: 50;
+  padding-right: 15px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-top: 3px;
+  width: 30px;
+  background-color: #B22222;
+}
+
+p {
+  display: run-in;
+  font-family: 'Comfortaa';
+  color: rgb(178, 172, 181);
+  font-size: 10px;
+}
+
 .team-member1 {
-  display: inline;
-  float: right
+  display: left;
+  float: right;
   border-style: dotted;
   border-color: rgb(194, 151, 21);
-  padding: 2px;
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+.team-member2 {
+  border-style: dotted;
+  border-color: rgb(194, 151, 21);
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+.team-member3 {
+  display: left;
+  border-style: dotted;
+  border-color: rgb(194, 151, 21);
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+.team-member4 {
+  border-style: dotted;
+  border-color: rgb(194, 151, 21);
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+img {
+  float: left;
 }

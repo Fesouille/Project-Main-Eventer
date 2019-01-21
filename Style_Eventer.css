@@ -1,7 +1,10 @@
 
+/*div containing title and underscore of the section 'form-section'*/
 #form-title{
 	position:relative;
 }
+/*hr is used as an underscore of the title of the form.
+This allows to position it according to the maquette*/
 #form-title hr{
 	border: 2.5px solid #B22222;
 	width: 192px;
@@ -14,6 +17,8 @@ form{
 	height:400px;
 	margin: 60px auto 15px auto;
 }
+/*The form contains a div for each label element and its input box
+(Name, Firstname, E-mail and Description)*/
 form div{
 	margin-bottom: 25px;
 	width:50%;

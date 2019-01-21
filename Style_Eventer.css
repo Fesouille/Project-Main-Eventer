@@ -12,37 +12,36 @@
 body {
 width:100%;
 height:100% ;
-background-color: ;
 
 }
 
 
-.Events{
+#Events{
 width: 100%;
 height:100%;
 }
 
-.ligne-un {
+#ligne-un {
   width: 100%;
   height: 200px;
   background-color: white;
   display: flex;
 }
 
-.ligne-un img{
+#ligne-un img{
   width:45%}
 
-.photo-gauche {
+#photo-gauche {
 
   width: 50% ;
   height: 100% ;
   float: left;}
 
-.photo-gauche img{
+#photo-gauche img{
     float:right;
   }
 
-.our hr {
+#our hr {
   margin-top: -35px;
   border-width: 2.5px;
   width: 260px;
@@ -50,24 +49,22 @@ height:100%;
   color: #B22222;
 }
 
-.our {
+#our {
   width: 25%;
   height: 100% ;
   font-family: "Titre";
   margin-left: 100px;
-  font-size: 160%;
+  font-size: 125%;
   margin-top: -30px;
 }
 
-.photo-droite{
+#photo-droite{
   width: 50% ;
   height: 100% ;
   float: right;
  }
 
-
-
-.ligne-deux{
+#ligne-deux{
   padding-left: 345px;
   width: 100%;
   height: 600px;
@@ -84,12 +81,11 @@ aside {
   font-family: 'Open Sans', sans-serif;
 }
 
-.titre {
+#titre {
 width: 100%;
 height: 10%;
 background-color: #B22222;
 margin: 0 0;
-
 border-color: #B22222;
 color: white;
 padding-top: 8px;
@@ -97,22 +93,22 @@ padding-top: 6px;
 
 }
 
-.mois {
+#mois {
   color: #81DAF5;
   font-size:20px;
 }
 
-.jour {
+#jour {
   margin-top: -5px;
 }
 
-.theme {
+#theme {
   font-size:15px;
   margin-top: -5px;
   font-weight: lighter;
 }
 
-.corps{
+#corps{
   margin : 0px 25px;
   color: #A9A9A9;
 }

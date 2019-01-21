@@ -2,6 +2,25 @@ body {
 width:100%;
 height:100% ;
 }
+section{
+  width: 80%;
+}
+h1 {
+  font-family: "Titre";
+  font-size: 250%;
+  font-weight: lighter
+}
+p, h2, li{
+  font-family: 'Open Sans', sans-serif;
+  color: #A9A9A9;
+}
+h3, h4, h5, label{
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    border: 2.5px solid #B22222;
+}
 
 header nav ul{
 	display:flex;
@@ -99,25 +118,11 @@ footer h1 {
   src: url('fonts/Cinzel-Regular.ttf') format('truetype')
  }
 
-
-h1 {
-  font-family: "Titre";
-  font-size: 250%;
-  font-weight: lighter
-}
-
-p {
-  font-family: "Texte"
-    text-transform:lowercase;
-  color: #A9A9A9;
-}
-
 /* Contenair Reda*/
 #Presentation {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10%;
-  width: 65%;
   position: relative;
 }
 
@@ -139,8 +144,6 @@ p {
   width: 215px;
   margin-left: 49%;
   margin-top: -2%;
-  border: 2px solid #B22222;
-  border-width: 3px;
   position: absolute;
 }
 
@@ -169,12 +172,6 @@ p {
 
 /*CSS VICTOR DEBUT      */
 /*Section BODY starts now         */
-body {
-  height: 100%;
-  width: 100%;
-  lenghth: 100%;
-}
-
 .block1 {
   display: flex;
   padding: 80px;
@@ -197,8 +194,6 @@ body {
 }
 
 .text-uppercase {
-  font-family: 'Comfortaa';
-  font-size: 43px;
   position: relative;
   padding: 5px;
   text-align: center;
@@ -230,9 +225,6 @@ body {
 
 p {
   display: run-in;
-  font-family: 'Comfortaa';
-  color: rgb(178, 172, 181);
-  font-size: 10px;
 }
 footer h1{
 	text-align:center;
@@ -285,10 +277,10 @@ height:100%;
   width:45%}
 
 #photo-gauche {
-
   width: 50% ;
   height: 100% ;
-  float: left;}
+  float: left;
+}
 
 #photo-gauche img{
     float:right;
@@ -305,9 +297,7 @@ height:100%;
 #our {
   width: 25%;
   height: 100% ;
-  font-family: "Titre";
   margin-left: 100px;
-  font-size: 125%;
   margin-top: -30px;
 }
 
@@ -331,7 +321,6 @@ height:100%;
   box-shadow: 0px 3px 8px 1.5px #D8D8D8;
   text-align: center;
   text-transform: lowercase;
-  font-family: 'Open Sans', sans-serif;
 }
 
 #titre {
@@ -376,7 +365,6 @@ padding-top: 6px;
 /*hr is used as an underscore of the title of the form.
 This allows to position it according to the maquette*/
 #form-title hr{
-	border: 2.5px solid #B22222;
 	width: 192px;
 	position: absolute;
 	top:35px;

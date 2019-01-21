@@ -23,7 +23,7 @@ p{
 
 /* Contenair Reda*/
 
-.Presentation{
+#Presentation{
   margin:auto;
   width: 65%;
   position: relative;
@@ -31,14 +31,14 @@ p{
 
 /* Image */
 
-.img1{
+#img1{
   position:absolute;
   top: 20px;
 }
 
 /* Titre */
 
-.whoweare{
+#whoweare{
   position: absolute;
   right: 180px;
   top: 50px;
@@ -46,9 +46,9 @@ p{
 
 /* Barre en dessous tu titre */
 
-.whoweare1{
+#whoweare1{
   position:absolute;
-  width: 250px;
+  width: 215px;
   margin-left: 410px;
   margin-top: 140px;
   color: #B22222;
@@ -57,7 +57,7 @@ p{
 
 /* Case à coté de l'image */
 
-.best{
+#best{
   background-color: #B22222;
   border-style: solid;
   border-color: white;
@@ -70,14 +70,14 @@ p{
 
 /* Paragraph 1 et 2 */
 
-.par1{
+#par1{
   position:absolute;
   top: 252px;
   right: 30px;
   color: #A9A9A9;
 }
 
-.par2{
+#par2{
   position:absolute;
   top: 390px;
   color: #A9A9A9;

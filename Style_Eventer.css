@@ -1,14 +1,265 @@
+
+header nav ul {
+  display: flex;
+  float: right;
+  margin-right: 10%;
+}
+
+/*Elements of the navigation block
+(About, Team, Events, Contact form)*/
+header nav ul li {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none;
+}
+
+header nav ul li a, header nav ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*Header of the page
+contains the navigation block and the logo*/
+header {
+  height: 480px;
+  background:
+    /*transparent black covering the background image*/
+    linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+    /*background image*/
+    url(images/header_Background.jpg);
+  background-size: cover;
+}
+
+/*Div of the header containing the logo
+Width and Height are set to correspong to the size of
+	the image it contains i.e. the logo
+Paddings top and bottom are set as to correspond to the height of the
+	height of the header [padding=(height of header/4]*/
+#logo {
+  width: 284px;
+  height: 214px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: auto;
+}
+
+/*Logo contained in header
+Specify size here*/
+#logo img {}
+
+footer {
+  background-image: url(images/swirl_pattern.png);
+  padding-top: 20px;
+  padding-bottom: 55px;
+}
+
+/*Div contained by footer
+This Dic contains the icons for external links (LinkedIn, Instagram, Twitter, Facebook)
+*/
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+/*Images representing the external links of the div (.footer-icons)
+contained in the footer*/
+.footer-icons img {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer h1 {
+  text-align: center;
+}
+
+=======
+
+/* Tout le code ci-dessous devrait être commun à tout le monde */
+>>>>>>> 8920d75291c63f8e536a30e1f839a1ad8661e083
 @font-face {
   font-family: 'Titre';
   src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Texte';
+   font-family: 'Texte';
   src: url('fonts/Cinzel-Regular.ttf') format('truetype')
  }
 
 
+h1 {
+  font-family: "Titre";
+  font-size: 250%;
+  font-weight: lighter
+}
+
+p {
+  font-family: "Texte"
+    text-transform:lowercase;
+  color: #A9A9A9;
+}
+
+/* Contenair Reda*/
+#Presentation {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  width: 65%;
+  position: relative;
+}
+
+/* Image */
+#img1 {
+  float: left;
+  top: 20px;
+  margin-right: 5%;
+}
+
+/* Titre */
+#whoweare {
+  padding-top: 5%;
+  position: relative;
+}
+
+/* Barre en dessous du titre */
+#whoweare1 hr {
+  width: 215px;
+  margin-left: 49%;
+  margin-top: -2%;
+  border: 2px solid #B22222;
+  border-width: 3px;
+  position: absolute;
+}
+
+/* Case à coté de l'image */
+#best {
+  background-color: #B22222;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  left: -80px;
+  top: 30px;
+  color: white;
+  padding: 5px;
+}
+
+/* Paragraph 1 et 2 */
+#par1 {
+  margin-top: 19%;
+}
+
+#par2 {
+  margin-top: 5%;
+}
+
+/* CSS Reda fin*/
+=======
+
+/*CSS VICTOR DEBUT      */
+/*Section BODY starts now         */
+body {
+  height: 100%;
+  width: 100%;
+  lenghth: 100%;
+}
+
+.block1 {
+  display: flex;
+  padding: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.block2 {
+  display: flex;
+  padding: 80px;
+  padding-top: 20px;
+}
+
+.team {
+  padding: 80px;
+}
+
+.title {
+  padding: 60px;
+}
+
+.text-uppercase {
+  font-family: 'Comfortaa';
+  font-size: 43px;
+  position: relative;
+  padding: 5px;
+  text-align: center;
+}
+
+.team .title hr {
+  margin-top: -35px;
+  margin-bottom: -50px;
+  width: 200px;
+  margin-left: 420px;
+  border: solid #B22222;
+  border-width: 2px;
+}
+
+.team-member1 h2, .team-member2 h2, .team-member3 h2, .team-member4 h2 {
+  float: left;
+  font-family: 'Comfortaa';
+  text-transform: uppercase;
+  color: rgb(239, 247, 241);
+  font-size: 12px;
+  font-weight: 50;
+  padding-right: 15px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-top: 3px;
+  width: 30px;
+  background-color: #B22222;
+}
+
+p {
+  display: run-in;
+  font-family: 'Comfortaa';
+  color: rgb(178, 172, 181);
+  font-size: 10px;
+}
+
+.team-member1 {
+  display: left;
+  float: right;
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+.team-member2 {
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+.team-member3 {
+  display: left;
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+.team-member4 {
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+img {
+  float: left;
+}
+/*CSS VICTOR FIN      */
 body {
 width:100%;
 height:100% ;
@@ -71,7 +322,7 @@ height:100%;
   background-color: #0000;
   display: flex; }
 
-aside {
+#ligne-deux aside {
   width: 16%;
   height: 350px;
   margin: 120px 60px;

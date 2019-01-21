@@ -116,9 +116,10 @@ p{
 /* Titre */
 
 #whoweare{
-  position: absolute;
-  right: 180px;
+  position: relative;
+  left: 45%;
   top: 50px;
+  color:red;
 }
 
 /* Barre en dessous tu titre */
@@ -159,6 +160,5 @@ p{
   top: 390px;
   color: #A9A9A9;
 }
-
 /* CSS Reda fin*/
->>>>>>> presentationReda
+

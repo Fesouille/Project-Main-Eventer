@@ -211,26 +211,26 @@
 
         }
 
-
-        /* Image */
-        #img1 {
-          float: left;
-          top: 20px;
-          margin-right: 5%;
+        #blocphoto{
+          float:left;
+          margin-right: 20px;
         }
 
-        /* Titre */
+       
+        #bloc-titre{
+          float:left;
+          position: relative;
+          top:30px;
+        }
+         /* Titre */
         #whoweare {
           padding-top: 5%;
-          position: relative;
         }
-
         /* Barre en dessous du titre */
-        #whoweare1 hr {
-          width: 215px;
-          margin-left: 49%;
-          margin-top: -2%;
-          position: absolute;
+        #bloc-titre hr {
+          width: 235px;
+          position:absolute;
+          bottom:5px;
         }
 
         /* Case à coté de l'image */
@@ -247,12 +247,12 @@
 
         /* Paragraph 1 et 2 */
         #par1 {
-          margin-top: 120px ;
+          padding-top: 250px;
           width: 70% ;
         }
 
         #par2 {
-          margin-top: 5%;
+          padding-top: 10px;
           width : 70%;
         }
 
@@ -272,18 +272,13 @@
         }
 
         .text-uppercase {
-          position: relative;
-          padding: 5px;
           text-align: center;
         }
-
-        .team .title hr {
-          margin-top: -35px;
-          margin-bottom: -50px;
-          width: 200px;
-          margin-left: 420px;
-          border: solid #B22222;
-          border-width: 2px;
+        .title{
+          position: relative;
+        }
+        #team .title hr {
+          width: 180px;
         }
 
         .team-member1 h2, .team-member2 h2, .team-member3 h2, .team-member4 h2 {
@@ -302,7 +297,7 @@
         .title{
           margin-bottom: 70px;
         }
-        .team p {
+        #team p {
           display: run-in;
         }
         .team-member1 {

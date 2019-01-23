@@ -276,9 +276,15 @@
         }
         .title{
           position: relative;
+          width:260px;
+          margin-left: auto;
+          margin-right: auto;
         }
         #team .title hr {
           width: 180px;
+          position: absolute;
+          left:30px;
+          bottom:-15px;
         }
 
         .team-member1 h2, .team-member2 h2, .team-member3 h2, .team-member4 h2 {
